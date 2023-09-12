@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   border-radius: 10px;
+}
+.calculator{
+    background-color: #020202d8;
+}
+ .nums{
+    cursor: pointer;
+    color: #ffff;
+    padding: 5px 5px 5px 5px;
+    font-size: large;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nums .equalz {
+    grid-column-start: 3;
+    grid-column-end: -1
+}
+input{
+    padding: 16px;
+    margin-right: 0;
+    background-color: #161515;
+    color: aliceblue;
+}
+form .nums input{
+    cursor: pointer;
+}
+
